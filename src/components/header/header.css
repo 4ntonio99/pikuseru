@@ -1,0 +1,47 @@
+.header {
+    width: 100vw;
+    height: 5vh;
+    border-bottom: 1px solid black;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.headerLogo {
+    margin: 0 3% 0 1%;
+    font-size: 20px;
+}
+.headerNav {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.headerNavSearch{
+    display: flex;
+    align-items: center;
+    width: 50%; 
+    margin: 0 3%;
+}
+.headerNavSearch input{
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+    padding-left: 2.5%;
+}
+.headerNavSearch img{
+    cursor: pointer;
+}
+.headerNav a{
+    margin: 0 3%;
+}
+.headerBag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 2.5%;
+}
+.headerLogin {
+    margin: 0 3%;
+}
