@@ -17,6 +17,35 @@
 }*/
 
 main {
-  height: 100vh;
   width: 100vw;
+}
+.latest {
+  width: 90%;
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.latestH1 {
+  font-size: 45px;
+  margin: 20px 0;
+}
+.latestP {
+  text-align: center;
+  width: 40%;
+  font-size: 20px;
+  color: #979797;
+}
+.latestBox {
+  width: 70%;
+  margin: 20px 0;
+}
+.latestBox img:nth-child(1) {
+  margin: 0 0 0 25px;
+}
+.latestBox img:nth-child(2) {
+  margin: 50px 25px;
+}
+.latestBox img:nth-child(3) {
+  margin: 0;
 }
